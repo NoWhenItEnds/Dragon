@@ -15,14 +15,14 @@ namespace Dragon.Utilities.Extensions
         {
             List<T> result = new List<T>();
 
-            FileAccess? file = FileAccess.Open(relativeDirectoryPath, FileAccess.ModeFlags.Read);
+            using FileAccess? file = FileAccess.Open(relativeDirectoryPath, FileAccess.ModeFlags.Read);
             if (file != null)
             {
                 String[] header = file.GetCsvLine();
                 while (!file.EofReached())
                 {
                     String[] currentLine = file.GetCsvLine();
-                    if (!currentLine.IsEmpty()) // If the current line has data.
+                    if (currentLine.Length > 0 && !String.IsNullOrWhiteSpace(currentLine[0]))
                     {
                         result.Add(T.Parse(header, currentLine));
                     }

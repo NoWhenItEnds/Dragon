@@ -1,5 +1,5 @@
 using Godot;
-using Halcyon.Utilities.Singletons;
+using Dragon.Utilities.Singletons;
 
 namespace Dragon.Managers
 {

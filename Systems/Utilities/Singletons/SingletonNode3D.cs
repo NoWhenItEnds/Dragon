@@ -1,3 +1,4 @@
+using System;
 using Godot;
 
 namespace Dragon.Utilities.Singletons
@@ -21,7 +22,7 @@ namespace Dragon.Utilities.Singletons
 
 
         /// <summary> Make sure to clean up the singleton when a close request is issued. </summary>
-        public override void _Notification(int what)
+        public override void _Notification(Int32 what)
         {
             if (what == NotificationWMCloseRequest)
             {

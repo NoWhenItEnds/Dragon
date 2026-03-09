@@ -1,3 +1,4 @@
+using System;
 using Godot;
 
 namespace Dragon.Utilities.Singletons
@@ -15,17 +16,20 @@ namespace Dragon.Utilities.Singletons
         /// <summary> Attempts to register the given object as the singleton instance. </summary>
         /// <param name="self"> The object attempting to register. </param>
         /// <returns> True if registration should be rejected (duplicate instance). </returns>
-        public static bool Register(GodotObject self)
+        public static Boolean Register(GodotObject self)
         {
-            if (Engine.IsEditorHint()) return false;
-
-            if (_instance == null)
+            Boolean result = false;
+            if (!Engine.IsEditorHint())
             {
-                _instance = self as T;
-                return false;
+                // Check if the instance already exists (isn't null).
+                result = _instance != null;
+                if (!result)
+                {
+                    _instance = self as T;
+                }
             }
 
-            return true; // Duplicate — caller should QueueFree.
+            return result;
         }
 
 

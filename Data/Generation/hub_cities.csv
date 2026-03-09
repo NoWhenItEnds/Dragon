@@ -1,0 +1,43 @@
+CityName,RegionCode,Latitude,Longitude,Tier
+Ashburn,US-EAST,39.0,-77.5,1
+San Jose,US-WEST,37.3,-121.9,1
+Frankfurt,EU-WEST,50.1,8.7,1
+Amsterdam,EU-WEST,52.4,4.9,1
+London,UK,51.5,-0.1,1
+Tokyo,EAST-ASIA,35.7,139.7,1
+Singapore,SE-ASIA,1.3,103.8,1
+Hong Kong,CHINA,22.3,114.2,1
+Sao Paulo,SA-SOUTH,-23.5,-46.6,1
+Mumbai,SOUTH-ASIA,19.1,72.9,1
+Sydney,OCEANIA,-33.9,151.2,1
+Dubai,MIDDLE-EAST,25.2,55.3,1
+Stockholm,EU-NORTH,59.3,18.1,1
+Chicago,US-CENT,41.9,-87.6,2
+Dallas,US-SOUTH,32.8,-96.8,2
+Atlanta,US-SOUTH,33.7,-84.4,2
+Miami,US-SOUTH,25.8,-80.2,2
+Los Angeles,US-WEST,34.1,-118.2,2
+Seattle,US-WEST,47.6,-122.3,2
+Toronto,CANADA,43.7,-79.4,2
+Montreal,CANADA,45.5,-73.6,2
+Mexico City,MEXICO,19.4,-99.1,2
+Paris,EU-WEST,48.9,2.3,2
+Milan,EU-SOUTH,45.5,9.2,2
+Madrid,EU-SOUTH,40.4,-3.7,2
+Warsaw,EU-EAST,52.2,21.0,2
+Moscow,EU-EAST,55.8,37.6,2
+Helsinki,EU-NORTH,60.2,24.9,2
+Seoul,KOREA,37.6,127.0,2
+Beijing,CHINA,39.9,116.4,2
+Shanghai,CHINA,31.2,121.5,2
+Taipei,EAST-ASIA,25.0,121.5,2
+Bangkok,SE-ASIA,13.8,100.5,2
+Jakarta,SE-ASIA,-6.2,106.8,2
+Chennai,SOUTH-ASIA,13.1,80.3,2
+Bogota,SA-NORTH,4.7,-74.1,2
+Buenos Aires,SA-SOUTH,-34.6,-58.4,2
+Cairo,AFRICA-N,30.0,31.2,2
+Johannesburg,AFRICA-S,-26.2,28.0,2
+Lagos,AFRICA-W,6.5,3.4,2
+Nairobi,AFRICA-E,-1.3,36.8,2
+Tashkent,CENTRAL-ASIA,41.3,69.3,2

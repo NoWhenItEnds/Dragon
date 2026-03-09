@@ -23,6 +23,7 @@ project/assembly_name="Dragon"
 
 folder_colors={
 "res://Content/": "blue",
+"res://Data/": "teal",
 "res://Systems/": "purple"
 }
 
